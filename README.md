@@ -81,7 +81,7 @@ Let's try again.
 Arrrhhh... This tutorial is a bit old (like everything related to any kind of Frontend development after 4 weeks).
 So let's change `index.jsx`
 ```
-React.renderComponent(<Hello />, document.getElementById('content'))
+React.render(<Hello />, document.getElementById('content'))
 ```
 
 And yes: `Hello React`. Yay!
