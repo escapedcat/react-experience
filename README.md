@@ -347,5 +347,22 @@ module.exports = React.createClass({
 Looks ok.
 
 
-## Adding validation
+## Updating versions
 
+I saw this:  
+https://github.com/gcanti/tcomb-form/issues/200  
+
+Someone had problems with tcomb and react 1.13.
+They suggested to upgrade to 1.14-rc1.
+Hm... let's just try that.
+First modify react in `package.json`:
+```
+"react": "^0.14.0-rc1",
+```
+...and then:
+`npm install react`  
+
+
+
+Well and then I did some other changes to use `import` for all things.  
+This results in an issue with the `router`. Let's figure out how to fix this now.
