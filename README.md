@@ -363,6 +363,10 @@ First modify react in `package.json`:
 `npm install react`  
 
 
-
 Well and then I did some other changes to use `import` for all things.  
 This results in an issue with the `router`. Let's figure out how to fix this now.
+
+## Export, Import, default, module
+What a mess. I figured out that I had no clue how to use `export` properly and if I should use `React.createClass` or `class extends Component`. I still don't. I setteled for `export const Foo = React.createClass` for now.  
+It's really stupid to only work on this every now and then.
+
