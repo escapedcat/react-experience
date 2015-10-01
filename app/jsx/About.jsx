@@ -2,9 +2,10 @@
 
 import React from 'react'
 
-export const About = React.createClass({
-    displayName: 'About',
-    render: function(){
+const About = React.createClass({
+    render() {
         return <div>About us</div>
     }
 })
+
+export default About;

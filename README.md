@@ -370,3 +370,22 @@ This results in an issue with the `router`. Let's figure out how to fix this now
 What a mess. I figured out that I had no clue how to use `export` properly and if I should use `React.createClass` or `class extends Component`. I still don't. I setteled for `export const Foo = React.createClass` for now.  
 It's really stupid to only work on this every now and then.
 
+### Import
+I don't know the difference between 
+```
+import App from './App';
+```
+and
+```
+import { App } from './App';
+```
+
+Ok, so this just depends on how you export your things:
+```
+export default App
+```
+or
+```
+export default { App }
+```
+So this is really just a question of what you are exporting. A single Vs. a couple of things.

@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom'
 import { Link, Router, Route } from 'react-router'
 
-export const App = React.createClass({
+const App = React.createClass({
   render() {
     return (
       <div>
@@ -27,3 +27,10 @@ export const App = React.createClass({
     )
   }
 })
+
+// function multiply(a, b) {
+//   return a * b;
+// }
+
+//export {App, multiply}
+export default App

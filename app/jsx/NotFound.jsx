@@ -1,8 +1,8 @@
 'use strict'
 
-import React 	from 'react'
+import React from 'react'
 
-export const NotFound = React.createClass({
+const NotFound = React.createClass({
   render() {
     return (
       <div>
@@ -11,3 +11,5 @@ export const NotFound = React.createClass({
     )
   }
 })
+
+export default NotFound;
