@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom'
 import { Link, Router, Route } from 'react-router'
 
-const App = React.createClass({
+class App extends React.Component {  
   render() {
     return (
       <div>
@@ -26,7 +26,7 @@ const App = React.createClass({
       </div>
     )
   }
-})
+}
 
 // function multiply(a, b) {
 //   return a * b;

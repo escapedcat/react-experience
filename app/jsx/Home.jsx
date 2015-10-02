@@ -1,11 +1,11 @@
 'use strict'
 
-import React, {Component} from 'react'
+import React from 'react'
 
-const Home = React.createClass({
-    render() {
+class Home extends React.Component {  
+	render() {
         return <div>Home here</div>
     }
-})
+}
 
 export default Home;

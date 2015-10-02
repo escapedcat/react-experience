@@ -2,10 +2,10 @@
 
 import React from 'react'
 
-const About = React.createClass({
+class About extends React.Component {  
     render() {
         return <div>About us</div>
     }
-})
+}
 
-export default About;
+export default About

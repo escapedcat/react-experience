@@ -389,3 +389,8 @@ or
 export default { App }
 ```
 So this is really just a question of what you are exporting. A single Vs. a couple of things.
+
+
+### createClass Vs. Component
+Read up on this [here](https://blog.risingstack.com/the-react-way-getting-started-tutorial) and switched everything to `Component`.
+
